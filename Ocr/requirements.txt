@@ -1,0 +1,9 @@
+opencv-python
+numpy
+Pillow
+pytesseract
+pymupdf
+requests
+python-Levenshtein
+matplotlib
+os

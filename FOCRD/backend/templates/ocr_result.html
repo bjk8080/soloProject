@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>결과</title></head>
+<body style="text-align:center;">
+  <h2>분석 결과</h2>
+
+  <h3>영양 성분</h3>
+  <table border="1" style="margin:0 auto;">
+    {% for k,v in parsed.items() %}
+      <tr><td>{{k}}</td><td>{{v}}</td></tr>
+    {% endfor %}
+  </table>
+
+  <h3>점수: {{score}} / 등급: {{tier}}</h3>
+
+  <br>
+  <a href="/">홈</a>
+</body>
+</html>
+
